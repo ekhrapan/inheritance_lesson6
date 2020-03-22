@@ -1,6 +1,6 @@
-package academy.belhard.example3.example2;
+package academy.belhard.example3;
 
-public class RightTriangle implements Figurable {
+public class RightTriangle implements AreaCalculator, PerimeterCalculator {
     private double dimension1;
     private double dimension2;
 

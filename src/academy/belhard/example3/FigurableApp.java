@@ -1,12 +1,12 @@
-package academy.belhard.example3.example2;
+package academy.belhard.example3;
 
 public class FigurableApp {
 
     public static void main(String[] args) {
-        Figurable rightTriangle = new RightTriangle(3, 4);
+        AreaCalculator rightTriangle = new RightTriangle(3, 4);
         System.out.println(rightTriangle);
 
-        Figurable rectangle = new Rectangle(3, 4);
+        AreaCalculator rectangle = new Rectangle(3, 4);
         System.out.println(rectangle);
     }
 }
