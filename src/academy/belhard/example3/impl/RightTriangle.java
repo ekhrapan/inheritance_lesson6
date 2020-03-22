@@ -1,4 +1,7 @@
-package academy.belhard.example3;
+package academy.belhard.example3.impl;
+
+import academy.belhard.example3.api.AreaCalculator;
+import academy.belhard.example3.api.PerimeterCalculator;
 
 public class RightTriangle implements AreaCalculator, PerimeterCalculator {
     private double dimension1;

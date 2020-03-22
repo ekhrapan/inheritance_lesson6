@@ -1,5 +1,9 @@
 package academy.belhard.example3;
 
+import academy.belhard.example3.api.AreaCalculator;
+import academy.belhard.example3.impl.Rectangle;
+import academy.belhard.example3.impl.RightTriangle;
+
 public class FigurableApp {
 
     public static void main(String[] args) {
